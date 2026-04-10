@@ -70,7 +70,7 @@ A dual-interface sentiment analysis platform that utilizes **BERT** and **LSTM**
 | **Visualization** | Matplotlib |
 
 ## requirements.txt
-# pandas
+<!-- # pandas
 # tensorflow
 # matplotlib
 # seaborn
@@ -81,4 +81,4 @@ A dual-interface sentiment analysis platform that utilizes **BERT** and **LSTM**
 # cryptography
 # torch
 # transformers
-# torchvision
+# torchvision -->
