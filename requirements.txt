@@ -5,4 +5,10 @@ seaborn
 scikit-learn
 flask
 nltk
+pymysql
+cryptography
+torch
+transformers
+torchvision
+
 

@@ -39,3 +39,46 @@ Ensure you have the following installed:
        bad_review INT DEFAULT 0,
        customer INT DEFAULT 0
    );
+
+
+# FLASK APP
+
+# 🍽️ Restaurant Review Analysis System
+
+A dual-interface sentiment analysis platform that utilizes **BERT** and **LSTM** deep learning models to predict customer satisfaction. This project features a **Flask Web Application** for quick predictions and a **Tkinter Desktop Application** for restaurant management and data visualization.
+
+## 🌟 Key Features
+- **Hybrid NLP Engine**: Supports both high-performance **BERT** (Transformers) and efficient **LSTM** (Keras) models.
+- **Web Interface (Flask)**: A lightweight web portal for instant review sentiment prediction.
+- **Admin Desktop Portal (Tkinter)**: 
+    - Secure Owner Login (`abc` / `12345`).
+    - Menu-specific review tracking (Idly, Biryani, etc.).
+    - Interactive **Pie Charts** for statistical analysis.
+- **Database Integration**: Real-time MySQL logging of customer feedback and food performance.
+
+---
+
+## 🛠️ Tech Stack
+
+| Component | Technology |
+| :--- | :--- |
+| **Language** | Python 3.8+ |
+| **Deep Learning** | PyTorch (BERT), TensorFlow/Keras (LSTM) |
+| **Web Framework** | Flask |
+| **GUI Framework** | Tkinter |
+| **Database** | MySQL (PyMySQL) |
+| **Visualization** | Matplotlib |
+
+## requirements.txt
+# pandas
+# tensorflow
+# matplotlib
+# seaborn
+# scikit-learn
+# flask
+# nltk
+# pymysql
+# cryptography
+# torch
+# transformers
+# torchvision
